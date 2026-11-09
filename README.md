@@ -14,4 +14,6 @@ La page Beauce présente l’inspiration paysagère et renvoie vers le plat.
 
 ## Référencement
 
-Chaque page a son propre titre et sa description, un seul titre principal, des liens HTML accessibles et des liens internes contextuels. La mention du caractère fictif est réservée au bandeau supérieur et aux mentions légales. Il n’y a pas de données structurées de recette.
+Les pages publiques ont des titres, descriptions, URL canoniques et aperçus de partage distincts. `robots.txt` déclare le plan de site `sitemap.xml`, qui liste les quatre pages éditoriales. `recette.html` contient des données structurées `Recipe` reprenant les ingrédients et étapes visibles sur la page. Les mentions légales sont exclues du plan de site et marquées `noindex` tant que les champs entre crochets restent à compléter.
+
+Le domaine personnalisé est déclaré dans `CNAME`. Les changements doivent être publiés sur la branche et le dossier configurés dans GitHub Pages. Aucun identifiant Google Analytics n’est intégré pour le moment : ajouter le tag GA4 après création de la propriété et décision sur le recueil du consentement.
